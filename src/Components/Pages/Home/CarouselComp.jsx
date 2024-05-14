@@ -22,6 +22,7 @@ const CarouselComp = () => {
       })
       .catch((err) => console.log(err));
   }, []);
+  // git remote remove origin
 // console.log("carouselData",carouselData)
   const settings = {
     dots: true,
